@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "layout" : {
+            "contentSize": "800px",
+            "wideSize": "1200px"
+        },
+        "color": {
+            "link": true,
+            "palette": [
+                {
+                    "name": "Red",
+                    "slug": "red",
+                    "color": "#da0707"
+                },
+                {
+                    "name": "Blue",
+                    "slug": "blue",
+                    "color": "#1d1aff"
+                },
+                {
+                    "name": "Green",
+                    "slug": "green",
+                    "color": "#38b21f"
+                },
+                {
+                    "name": "Pink",
+                    "slug": "pink",
+                    "color": "#fb2d9b"
+                }
+            ]
+        },
+        "typography": {
+            "customFontSize": true,
+            "customLineHeight": true,
+            "fontFamilies": [
+                {
+                    "name": "明朝体",
+                    "slug": "mincho-font",
+                    "fontFamily": "'游明朝体', 'Yu Mincho', YuMincho, 'ヒラギノ明朝 Pro', 'Hiragino Mincho Pro', serif"
+                },
+                {
+                    "name": "Caveat",
+                    "slug": "cursive",
+                    "fontFamily": "Caveat, cursive",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Caveat",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                              "https://fonts.gstatic.com/s/caveat/v18/Wnz6HAc5bAfYB2Q7azYYiAzcPDKo.woff2"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "styles": {},
+    "patterns": ["pricing-table-21-ja"],
+    "customTemplates": [],
+    "templateParts": []
+}
