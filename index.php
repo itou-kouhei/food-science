@@ -49,7 +49,6 @@
 
       <!-- 投稿のカードリスト -->
       <div class="section_body">
-        
         <!-- 記事がなかったらカード自体表示しない -->
         <?php if (have_posts()) : ?>
           <div class="cardList">
