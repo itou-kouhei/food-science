@@ -20,7 +20,7 @@
     null
   );
 
-  ///自前のJavaScriptを呼び出せる。記述パターン１
+  //自前のJavaScriptを呼び出せる。記述パターン１
   wp_enqueue_script(
     'food-science-main', //ハンドルネームは自由に決めていい
     get_template_directory_uri() . '/assets/js/main.js',
@@ -29,7 +29,8 @@
     true //これでbodyの閉じタグ前に記述される
   );
 
-  wp_enqueue_script('jquery'); //WoredPressに元々入っているjqueryを呼び出せる。
+  //WoredPressに元々入っているjqueryを呼び出せる。
+  wp_enqueue_script('jquery'); 
 
 
   //wp_head()関数はWoredPressを使ってサイト作成する時は必ず記述しておく関数 
